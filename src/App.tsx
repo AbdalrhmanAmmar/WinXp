@@ -1,5 +1,15 @@
+import { RouterProvider } from "react-router-dom";
+
+import router from "./Routes";
+// import WindowScreen from "./Components/WindowScreen";
+
 function App() {
-  return <>hello</>;
+  return (
+    <>
+      <RouterProvider router={router} />
+      {/* <WindowScreen/> */}
+    </>
+  );
 }
 
 export default App;
